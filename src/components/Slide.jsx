@@ -6,7 +6,7 @@ import img003 from '../img/img003.jpg';
 import './style/slide.css'
 
 const properties = {
-    duration:5000,
+    duration:10000,
     transitionDuration:500,
     infinite:true,
     indicators:true,
@@ -18,14 +18,17 @@ const Slideshow = () => {
     return (
         <div className="containerSlide">
         <Slide {...properties}>
-            <div className="each-slide">
-                <img src={img001} alt="img1"/>
+            <div className="each-slide" style={{backgroundImage: `url(${img001})`, height: '110vh', backgroundRepeat:'no-repeat'}}>
+                <div>Hola</div>
+                <button>Boton</button>
             </div>
-            <div className="each-slide">
-                <img src={img002} alt="img2"/>
+            <div className="each-slide" style={{backgroundImage: `url(${img002})`, height: '110vh', backgroundRepeat:'no-repeat'}}>
+                <div>Hola</div>
+                <button>Boton</button>
             </div>
-            <div className="each-slide">
-                <img src={img003} alt="img3"/>
+            <div className="each-slide" style={{backgroundImage: `url(${img003})`, height: '110vh', backgroundRepeat:'no-repeat'}}>
+                <div>Hola</div>
+                <button>Boton</button>
             </div>
         </Slide>
 
