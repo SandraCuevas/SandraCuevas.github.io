@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.536f478e.chunk.css",
-    "main.js": "/portafolio/static/js/main.66ef213d.chunk.js",
-    "main.js.map": "/portafolio/static/js/main.66ef213d.chunk.js.map",
+    "main.css": "/portafolio/static/css/main.cad0fcb7.chunk.css",
+    "main.js": "/portafolio/static/js/main.cf05ea38.chunk.js",
+    "main.js.map": "/portafolio/static/js/main.cf05ea38.chunk.js.map",
     "runtime~main.js": "/portafolio/static/js/runtime~main.41300385.js",
     "runtime~main.js.map": "/portafolio/static/js/runtime~main.41300385.js.map",
     "static/css/2.f65ab6ef.chunk.css": "/portafolio/static/css/2.f65ab6ef.chunk.css",
-    "static/js/2.f00f0046.chunk.js": "/portafolio/static/js/2.f00f0046.chunk.js",
-    "static/js/2.f00f0046.chunk.js.map": "/portafolio/static/js/2.f00f0046.chunk.js.map",
+    "static/js/2.ef839c6d.chunk.js": "/portafolio/static/js/2.ef839c6d.chunk.js",
+    "static/js/2.ef839c6d.chunk.js.map": "/portafolio/static/js/2.ef839c6d.chunk.js.map",
     "index.html": "/portafolio/index.html",
-    "precache-manifest.a9a4e895a8463ed3d270643ad51674a5.js": "/portafolio/precache-manifest.a9a4e895a8463ed3d270643ad51674a5.js",
+    "precache-manifest.ee7166eb630702cb90c7db53da02b74f.js": "/portafolio/precache-manifest.ee7166eb630702cb90c7db53da02b74f.js",
     "service-worker.js": "/portafolio/service-worker.js",
     "static/css/2.f65ab6ef.chunk.css.map": "/portafolio/static/css/2.f65ab6ef.chunk.css.map",
-    "static/css/main.536f478e.chunk.css.map": "/portafolio/static/css/main.536f478e.chunk.css.map",
-    "static/media/img001.jpg": "/portafolio/static/media/img001.d6127134.jpg",
-    "static/media/img002.jpg": "/portafolio/static/media/img002.cce73616.jpg",
-    "static/media/img003.jpg": "/portafolio/static/media/img003.3ddfc77a.jpg"
+    "static/css/main.cad0fcb7.chunk.css.map": "/portafolio/static/css/main.cad0fcb7.chunk.css.map",
+    "static/media/img001.jpg": "/portafolio/static/media/img001.e367fbc2.jpg",
+    "static/media/img002.jpg": "/portafolio/static/media/img002.2b575420.jpg",
+    "static/media/img003.jpg": "/portafolio/static/media/img003.481288ad.jpg",
+    "static/media/yoBici.gif": "/portafolio/static/media/yoBici.ca1f08e4.gif"
   }
 }
