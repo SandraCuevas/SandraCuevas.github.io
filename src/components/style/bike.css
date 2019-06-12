@@ -1,5 +1,10 @@
+.imgPlane{
+    padding-top: 10px;
+    height: 10px;
+}
+
 .imgBike{
     display: flex;
     align-items:flex-end;
-    padding-top: 170px;
+    padding-top: 240px;
 }
