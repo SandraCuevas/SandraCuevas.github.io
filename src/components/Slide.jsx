@@ -31,10 +31,12 @@ const Slideshow = () => {
 
             </div>
             <div className="each-slide" style={{backgroundImage: `url(${img002})`, height: '100vh', backgroundRepeat:'no-repeat'}}>
+                <ContactMe/>
                 <MySkills/>
                 <BikeMe/>
             </div>
             <div className="each-slide" style={{backgroundImage: `url(${img003})`, height: '100vh', backgroundRepeat:'no-repeat'}}>
+                <ContactMe/>
                 <MyProjects/>
                 <BikeMe />
             </div>
