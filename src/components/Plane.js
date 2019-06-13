@@ -6,7 +6,7 @@ import Image from 'react-image-resizer';
 const Name = () => {
     return (
         <div className="imgPlane">
-            <Image src={MyName} alt="gif"width={1400} height={205}/>
+            <Image src={MyName} alt="gif"width={1270} height={205}/>
         </div>
     )
 }

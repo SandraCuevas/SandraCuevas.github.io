@@ -1,10 +1,25 @@
 .imgPlane{
-    padding-top: 10px;
+    
     height: 10px;
 }
 
 .imgBike{
+    padding-top: 70px;
     display: flex;
     align-items:flex-end;
-    padding-top: 240px;
+}
+
+.contact{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fab {
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+.imgSkills{
+    padding-top: 20px;
+    display: flex;
+    align-items:flex-end;
 }

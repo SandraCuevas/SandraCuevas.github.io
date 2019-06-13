@@ -1,8 +1,6 @@
-/*.containerSlide {
-    width: 600px;
-    margin: auto;
-    padding-top: 100px;
-}*/
+.containerSlide {
+    width: 1280px;
+}
 
 .containerSlide img {
     height: 500px;
