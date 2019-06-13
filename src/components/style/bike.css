@@ -4,7 +4,7 @@
 }
 
 .imgBike{
-    padding-top: 70px;
+    padding-top: 140px;
     display: flex;
     align-items:flex-end;
 }
@@ -22,4 +22,9 @@
     padding-top: 20px;
     display: flex;
     align-items:flex-end;
+}
+
+.projects {
+    padding-top: 100px;
+    font-family: 'Montserrat', sans-serif;
 }

@@ -3,14 +3,15 @@ import { Slide } from 'react-slideshow-image';
 import img001 from '../img/img001.jpg';
 import img002 from '../img/img002.jpg';
 import img003 from '../img/img003.jpg';
-import BikeMe from './Bike'
-import MyName from './Plane'
-import ContactMe from './Contact'
-import MySkills from './Skills'
-import './style/slide.css'
+import BikeMe from './Bike';
+import MyName from './Plane';
+import ContactMe from './Contact';
+import MySkills from './Skills';
+import MyProjects from './Projects';
+import './style/slide.css';
 
 const properties = {
-    duration:100000,
+    duration:80000,
     transitionDuration:1000,
     infinite:true,
     indicators:true,
@@ -31,10 +32,10 @@ const Slideshow = () => {
             </div>
             <div className="each-slide" style={{backgroundImage: `url(${img002})`, height: '100vh', backgroundRepeat:'no-repeat'}}>
                 <MySkills/>
+                <BikeMe/>
             </div>
             <div className="each-slide" style={{backgroundImage: `url(${img003})`, height: '100vh', backgroundRepeat:'no-repeat'}}>
-                <div>Projects</div>
-                <button>Boton</button>
+                <MyProjects/>
                 <BikeMe />
             </div>
         </Slide>
