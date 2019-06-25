@@ -11,15 +11,16 @@ const MyProjects = () => {
         <Container className="projects">
         <Row>
           <Col><Image src={proj001} alt="proj001" height={205}/>
-          <Alert.Link href="https://sandracuevas.github.io/GDL002-data-lovers/src">
+          <Alert.Link target="_blank" href="https://sandracuevas.github.io/GDL002-data-lovers/src">
           +Lolvers</Alert.Link>
           </Col>
           <Col><Image src={proj002} alt="proj002"height={205}/>
-          <Alert.Link href="https://perlatovargarcia.github.io/Hackarandas/">
+          <Alert.Link target="_blank" href="https://perlatovargarcia.github.io/Hackarandas/">
+        
           Tutopya</Alert.Link>
           </Col>
           <Col><Image src={proj003} alt="proj003"height={205}/>
-          <Alert.Link href="https://sandracuevas.github.io/GDL002-burger-queen/">
+          <Alert.Link target="_blank" href="https://sandracuevas.github.io/GDL002-burger-queen/">
           The Tea Shop</Alert.Link>
           </Col>
         </Row>

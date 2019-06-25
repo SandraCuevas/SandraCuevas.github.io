@@ -9,10 +9,11 @@ const ContactMe = () => {
           <Col></Col>
           <Col></Col>
           <Col></Col>
+          {/* grid sistem */}
           <Col className="contactIcon">
-          <Alert.Link href="https://www.github.com/SandraCuevas"><i className="fab fa-github-square"></i></Alert.Link>
-          <Alert.Link href="https://www.linkedin.com/in/sandra-cuevastorres"><i class="fab fa-linkedin"></i></Alert.Link>
-          <Alert.Link href="https://www.behance.net/zandryuxf92e"><i class="fab fa-behance-square"> </i></Alert.Link>
+          <Alert.Link target="_blank" href="https://www.github.com/SandraCuevas"><i className="fab fa-github-square"></i></Alert.Link>
+          <Alert.Link target="_blank" href="https://www.linkedin.com/in/sandra-cuevastorres"><i class="fab fa-linkedin"></i></Alert.Link>
+          <Alert.Link target="_blank" href="https://www.behance.net/zandryuxf92e"><i class="fab fa-behance-square"> </i></Alert.Link>
           </Col>
         </Row>
       </Container>
