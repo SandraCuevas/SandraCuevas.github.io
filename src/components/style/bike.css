@@ -3,13 +3,8 @@
     height: 10px;
 }
 
-.imgBike{
-    padding-top: 140px;
-    display: flex;
-    align-items:flex-end;
-}
 
-.contact{
+.contact, .download{
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -19,9 +14,7 @@
 }
 
 .imgSkills{
-    padding-top: 20px;
-    display: flex;
-    align-items:flex-end;
+    position: initial !important;
 }
 
 .projects {
@@ -34,6 +27,3 @@
     justify-content: space-around;
 }
 
-.fas{
-    font-size: 40pt;
-}

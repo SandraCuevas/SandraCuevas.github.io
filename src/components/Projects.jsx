@@ -10,18 +10,20 @@ const MyProjects = () => {
     return (
         <Container className="projects">
         <Row>
-          <Col><Image src={proj001} alt="proj001" height={205}/>
-          <Alert.Link target="_blank" href="https://sandracuevas.github.io/GDL002-data-lovers/src">
-          +Lolvers</Alert.Link>
+          <Col>
+            <Alert.Link target="_blank" href="https://sandracuevas.github.io/GDL002-data-lovers/src">
+            +Lolvers</Alert.Link>
+            <Image src={proj001} alt="proj001" height={300}/>
           </Col>
-          <Col><Image src={proj002} alt="proj002"height={205}/>
-          <Alert.Link target="_blank" href="https://perlatovargarcia.github.io/Hackarandas/">
-        
-          Tutopya</Alert.Link>
+          <Col>
+            <Alert.Link target="_blank" href="https://sandracuevas.github.io/GDL002-burger-queen/">
+            FlyAway</Alert.Link>
+            <Image src={proj002} alt="proj002"height={300}/>
           </Col>
-          <Col><Image src={proj003} alt="proj003"height={205}/>
-          <Alert.Link target="_blank" href="https://sandracuevas.github.io/GDL002-burger-queen/">
-          The Tea Shop</Alert.Link>
+          <Col>
+            <Alert.Link target="_blank" href="https://sandracuevas.github.io/tutopya/">
+              Tutopya</Alert.Link>
+            <Image src={proj003} alt="proj003"height={300}/>
           </Col>
         </Row>
       </Container>

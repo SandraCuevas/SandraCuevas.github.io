@@ -24,8 +24,9 @@ const Slideshow = () => {
         <div className="containerSlide">
         <Slide {...properties}>
             <div className="each-slide" style={{backgroundImage: `url(${img001})`, height: '100vh', backgroundRepeat:'no-repeat'}}>
-                <ContactMe/>
                 <MyName/>
+                <ContactMe/>
+                
                 
 
             </div>

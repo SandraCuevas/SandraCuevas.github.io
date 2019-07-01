@@ -9,13 +9,13 @@ function App() {
   return (
     <div className="App">
       <div className='container'>
-        <Slideshow className="col" />
+        <Slideshow />
           <div className='bici'>
           
             <BikeMe/>
           </div>
       </div>
-      </div>
+    </div>
     
   );
 }
