@@ -7,7 +7,7 @@ import MyName from './Plane';
 import ContactMe from './Contact';
 import MySkills from './Skills';
 import MyProjects from './Projects';
-import './style/slide.css';
+import '../App.css';
 
 const properties = {
     duration:60000,
@@ -23,19 +23,19 @@ const Slideshow = () => {
     return (
         <div className="containerSlide">
         <Slide {...properties}>
-            <div className="each-slide" style={{backgroundImage: `url(${img001})`, height: '100vh', backgroundRepeat:'no-repeat'}}>
+            <div className="each-slide" style={{backgroundImage: `url(${img001})`}}>
                 <MyName/>
                 <ContactMe/>
                 
                 
 
             </div>
-            <div className="each-slide" style={{backgroundImage: `url(${img002})`, height: '100vh', backgroundRepeat:'no-repeat'}}>
+            <div className="each-slide" style={{backgroundImage: `url(${img002})`}}>
                 <ContactMe/>
                 <MySkills/>
                 
             </div>
-            <div className="each-slide" style={{backgroundImage: `url(${img003})`, height: '100vh', backgroundRepeat:'no-repeat'}}>
+            <div className="each-slide" style={{backgroundImage: `url(${img003})`}}>
                 <ContactMe/>
                 <MyProjects/>
                 

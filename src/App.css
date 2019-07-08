@@ -10,11 +10,77 @@
   position: fixed;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.imgPlane{
+    
+  height: 10px;
+}
+
+
+.contact, .download{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.fab {
+  padding-top: 20px;
+  font-size: 50px;
+}
+
+.imgSkills{
+  position: initial !important;
+}
+
+.projects {
+  padding-top: 100px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contactIcon{
+  display: flex;
+  justify-content: space-around;
+}
+
+.containerSlide {
+  width: 1200px;
+}
+
+.containerSlide img {
+  height: 500px;
+  
+}
+.each-slide { 
+  height: 100vmax; 
+  background-repeat: no-repeat;
+}
+
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1824px) and (orientation : portrait){
+  .hidden-desktop {
+    display: inherit !important;
   }
-  to {
-    transform: rotate(360deg);
+  .visible-desktop {
+    display: none !important ;
+  }
+  .visible-tablet {
+    display: inherit !important;
+  }
+  .hidden-tablet {
+    display: none !important;
   }
 }
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1824px) and (orientation : landscape){
+  .hidden-desktop {
+    display: inherit !important;
+  }
+  .visible-desktop {
+    display: none !important ;
+  }
+  .visible-tablet {
+    display: inherit !important;
+  }
+  .hidden-tablet {
+    display: none !important;
+  }
+ 
+}
+

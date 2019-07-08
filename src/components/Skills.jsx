@@ -1,7 +1,7 @@
 import React from 'react';
 import Skills from '../img/Skills.gif';
 //import Sun from '../img/SolCV.png'
-import './style/bike.css';
+import '../App.css';
 import { Container, Alert, Row, Col } from 'react-bootstrap';
 
 
@@ -15,7 +15,7 @@ const MySkills = () => {
                         <br/>
                         <br/>
                         <br/>
-                        CLICK TO
+                        <i class="fas fa-address-card"></i>
                         <br/>download<br/>
                         MY RESUME
                     </Alert.Link>
@@ -28,7 +28,7 @@ const MySkills = () => {
                 </Col>
                 <Col>   
                     <img alt="ballons"
-                    src={Skills} style={{height:'60vh' }}
+                    src={Skills} style={{height:'60vh'}}
                     />
                 </Col> 
             </Row>
