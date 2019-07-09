@@ -4,7 +4,7 @@ import proj001 from '../img/proj001.png';
 import proj002 from '../img/proj002.png';
 import proj003 from '../img/proj003.png';
 import Image from 'react-image-resizer';
-import './style/bike.css'
+import '../App.css';
 
 const MyProjects = () => {
     return (

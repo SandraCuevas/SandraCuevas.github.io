@@ -1,6 +1,6 @@
 import React from 'react';
 import YoBici from '../img/yoBici.gif';
-import './style/bike.css'
+import '../App.css';
 
 const BikeMe = () => {
     return (

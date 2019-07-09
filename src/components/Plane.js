@@ -1,6 +1,6 @@
 import React from 'react';
 import MyName from '../img/myName.gif';
-import './style/bike.css'
+import '../App.css';
 import Image from 'react-image-resizer';
 
 const Name = () => {
