@@ -15,7 +15,7 @@ const properties = {
     infinite:true,
     indicators:true,
     scale: 0.4,
-    arrows:true
+    arrows:true,
 
 }
 
@@ -25,10 +25,7 @@ const Slideshow = () => {
         <Slide {...properties}>
             <div className="each-slide" style={{backgroundImage: `url(${img001})`}}>
                 <MyName/>
-                <ContactMe/>
-                
-                
-
+                <ContactMe/> 
             </div>
             <div className="each-slide" style={{backgroundImage: `url(${img002})`}}>
                 <ContactMe/>

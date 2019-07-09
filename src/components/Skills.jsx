@@ -10,7 +10,7 @@ const MySkills = () => {
 
         <Container >
             <Row>
-                <Col md={{ span: 2, offset: 1 }}>
+                <Col >
                     <Alert.Link className="download" target="_blank" href="https://www.dropbox.com/s/svfjlu6toy78g1t/CV_SandraCuevas01.pdf?dl=0" >
                         <br/>
                         <br/>
@@ -23,13 +23,10 @@ const MySkills = () => {
                 
             </Row>
             <Row>
-                <Col>
-                       
-                </Col>
-                <Col>   
+              
+                <Col >   
                     <img alt="ballons"
-                    src={Skills} style={{height:'60vh'}}
-                    />
+                    src={Skills} />
                 </Col> 
             </Row>
            

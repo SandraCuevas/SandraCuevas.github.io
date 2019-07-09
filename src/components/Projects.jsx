@@ -10,17 +10,17 @@ const MyProjects = () => {
     return (
         <Container className="projects">
         <Row>
-          <Col>
+          <Col >
             <Alert.Link target="_blank" href="https://sandracuevas.github.io/GDL002-data-lovers/src">
             +Lolvers</Alert.Link>
             <Image src={proj001} alt="proj001" height={300}/>
           </Col>
-          <Col>
+          <Col >
             <Alert.Link target="_blank" href="https://snack.expo.io/@sandracuevas/flyaway">
             FlyAway</Alert.Link>
             <Image src={proj002} alt="proj002"height={300}/>
           </Col>
-          <Col>
+          <Col >
             <Alert.Link target="_blank" href="https://sandracuevas.github.io/tutopya/">
               Tutopya</Alert.Link>
             <Image src={proj003} alt="proj003"height={300}/>
