@@ -41,6 +41,26 @@
   justify-content: space-around;
 }
 
+
+  .Btn {
+    border: 1px solid #ddd;
+    border-width: 1px;
+    border-radius: 15%;
+    padding: 8px;
+    margin: 5px;
+    width: 85px;
+    height: 85px;
+    font-size: 80%;
+  
+  }
+  .Btn:hover{
+    width: 100px;
+    height: 100px;
+    top: 0%;
+    font-size: 100%;
+  }
+
+
 .containerSlide {
   width: 1200px;
 }
@@ -50,7 +70,7 @@
   
 }
 .each-slide { 
-  height: 100vmax; 
+  height: 100vh; 
   background-repeat: no-repeat;
 }
 
@@ -62,36 +82,22 @@
     margin-left: auto;
 }
 
-
-
-@media screen and (min-device-width: 768px) and (max-device-width: 1824px) and (orientation : portrait){
-  .hidden-desktop {
-    display: inherit !important;
-  }
-  .visible-desktop {
-    display: none !important ;
-  }
-  .visible-tablet {
-    display: inherit !important;
-  }
-  .hidden-tablet {
-    display: none !important;
-  }
+.ballon{
+  position: fixed;
 }
 
-@media screen and (min-device-width: 768px) and (max-device-width: 1824px) and (orientation : landscape){
-  .hidden-desktop {
-    display: inherit !important;
+@media only screen and (max-width:700px){
+  .each-slide { 
+    height: 100vmax; 
+    background-repeat: no-repeat;
   }
-  .visible-desktop {
-    display: none !important ;
-  }
-  .visible-tablet {
-    display: inherit !important;
-  }
-  .hidden-tablet {
-    display: none !important;
-  }
- 
+
 }
 
+@media only screen and (max-width:600px){
+  .each-slide { 
+    height: 100vmax; 
+    background-repeat: no-repeat;
+  }
+
+}
