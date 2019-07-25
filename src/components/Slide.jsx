@@ -3,10 +3,12 @@ import { Slide } from 'react-slideshow-image';
 import img001 from '../img/img001.jpg';
 import img002 from '../img/img002.jpg';
 import img003 from '../img/img003.jpg';
+import img004 from '../img/img004.jpg';
 import MyName from './Plane';
 import ContactMe from './Contact';
 import MySkills from './Skills';
 import MyProjects from './Projects';
+import MyReel from './Video';
 import '../App.css';
 
 const properties = {
@@ -26,6 +28,7 @@ const Slideshow = () => {
             <div className="each-slide" style={{backgroundImage: `url(${img001})`}}>
                 <MyName/>
                 <ContactMe/> 
+                
             </div>
             <div className="each-slide" style={{backgroundImage: `url(${img002})`}}>
                 <ContactMe/>
@@ -35,6 +38,11 @@ const Slideshow = () => {
             <div className="each-slide" style={{backgroundImage: `url(${img003})`}}>
                 <ContactMe/>
                 <MyProjects/>
+                
+            </div>
+            <div className="each-slide" style={{backgroundImage: `url(${img004})`}}>
+                <ContactMe/>
+                <MyReel/>
                 
             </div>
         </Slide>

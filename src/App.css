@@ -86,6 +86,17 @@
   position: fixed;
 }
 
+.contactIcon{
+  display: flex;
+  color:white;
+}
+
+.footprints{
+  display: flex;
+  align-content: flex-end;
+  size: 5200pts;
+}
+
 @media only screen and (max-width:700px){
   .each-slide { 
     height: 100vmax; 
@@ -94,10 +105,3 @@
 
 }
 
-@media only screen and (max-width:600px){
-  .each-slide { 
-    height: 100vmax; 
-    background-repeat: no-repeat;
-  }
-
-}
