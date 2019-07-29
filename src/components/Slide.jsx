@@ -12,7 +12,7 @@ import MyReel from './Video';
 import '../App.css';
 
 const properties = {
-    duration:60000,
+    duration:70000,
     transitionDuration:1000,
     infinite:true,
     indicators:true,

@@ -17,6 +17,17 @@
   height: 10px;
 }
 
+.sun{
+  position: absolute;
+  width: 300px;
+
+
+}
+
+.sun:hover{
+  width:350px;
+  
+}
 
 .contact, .download{
   font-family: 'Montserrat', sans-serif;
@@ -60,15 +71,16 @@
     font-size: 100%;
   }
 
+  .project:hover{
+    height:350px;
+  }
+
 
 .containerSlide {
   width: 1200px;
 }
 
-.containerSlide img {
-  height: 500px;
-  
-}
+
 .each-slide { 
   height: 100vh; 
   background-repeat: no-repeat;
@@ -83,7 +95,7 @@
 }
 
 .ballons{
-  position: relative;
+  position: absolute;
   top: 50px;
   left: 300px;
 }
@@ -102,7 +114,7 @@
 .playVideo{
   position: relative; 
   top:130px;
-  left:520px;
+  left:420px;
 }
 
 @media only screen and (max-width:700px){
