@@ -6,8 +6,7 @@ const ContactMe = () => {
     return (
         <Container className="contact">
         <Row>
-          <Col md={{ span: 3, offset: 9 }} className="contactIcon">
-          
+          <Col sm={{ span: 2, offset: 5 }} md={{ span: 3, offset: 9 }} className="contactIcon">
           <Alert.Link className="contactIcon" target="_blank" href="https://www.github.com/SandraCuevas"><i className="fab fa-github-square"></i></Alert.Link>
           <Alert.Link className="contactIcon" target="_blank" href="https://www.linkedin.com/in/sandra-cuevastorres"><i class="fab fa-linkedin"></i></Alert.Link>
           <Alert.Link className="contactIcon" target="_blank" href="https://www.behance.net/zandryuxf92e"><i class="fab fa-behance-square"> </i></Alert.Link>

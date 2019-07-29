@@ -82,8 +82,10 @@
     margin-left: auto;
 }
 
-.ballon{
-  position: fixed;
+.ballons{
+  position: relative;
+  top: 50px;
+  left: 300px;
 }
 
 .contactIcon{
@@ -97,11 +99,23 @@
   size: 5200pts;
 }
 
+.playVideo{
+  position: relative; 
+  top:130px;
+  left:520px;
+}
+
 @media only screen and (max-width:700px){
   .each-slide { 
     height: 100vmax; 
     background-repeat: no-repeat;
   }
+
+  .playVideo {
+    position: relative;
+    top: 130px;
+    left: 230px;
+}
 
 }
 
