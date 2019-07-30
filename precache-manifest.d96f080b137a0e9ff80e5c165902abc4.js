@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8b46ad59b2aaba38fc2a253e2d983104",
+    "revision": "9d868dc495f1dc67cfc0564e732c0167",
     "url": "/index.html"
   },
   {
@@ -8,20 +8,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.f65ab6ef.chunk.css"
   },
   {
-    "revision": "f4bd7a794a1cc1a4ffa4",
-    "url": "/static/css/main.5988bc26.chunk.css"
+    "revision": "10095d9a470eeb753f8d",
+    "url": "/static/css/main.5022917e.chunk.css"
   },
   {
     "revision": "06672ef855443368c47e",
     "url": "/static/js/2.b152f41a.chunk.js"
   },
   {
-    "revision": "f4bd7a794a1cc1a4ffa4",
-    "url": "/static/js/main.c0a3a82f.chunk.js"
+    "revision": "10095d9a470eeb753f8d",
+    "url": "/static/js/main.bea55a22.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
+  },
+  {
+    "revision": "23e9518d11db37e1a5080422704697db",
+    "url": "/static/media/BiciMail.23e9518d.gif"
   },
   {
     "revision": "6a9de0182bb704abeb39b71795aab2be",
@@ -58,9 +62,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9e6e24cf5112a9c436a50bea6b3c5ef5",
     "url": "/static/media/proj003.9e6e24cf.png"
-  },
-  {
-    "revision": "1cd01a40c934b8640df8e6262314275d",
-    "url": "/static/media/yoBici.1cd01a40.gif"
   }
 ]);
