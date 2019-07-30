@@ -80,6 +80,12 @@
   width: 1200px;
 }
 
+.email{
+  font-family: 'Montserrat', sans-serif;
+  text-align: right;
+  width: 100%;
+}
+
 
 .each-slide { 
   height: 100vh; 

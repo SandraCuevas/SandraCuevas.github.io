@@ -11,7 +11,7 @@ function App() {
       <div className='container'>
         <Slideshow />
           <div className='bici'>
-            <BikeMe/>
+            <BikeMe/>        
           </div>
       </div>
     </div>

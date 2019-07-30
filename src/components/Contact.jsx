@@ -5,8 +5,8 @@ import '../App.css'
 const ContactMe = () => {
     return (
         <Container className="contact">
-        <Row>
-          <Col sm={{ span: 2, offset: 5 }} md={{ span: 3, offset: 9 }} className="contactIcon">
+        <Row className="flex-sm-row-reverse">
+          <Col sm={{ span: 2, offset: 2 }} md={{ span: 3, offset: 9 }} className="contactIcon">
           <Alert.Link className="contactIcon" target="_blank" href="https://www.github.com/SandraCuevas"><i className="fab fa-github-square"></i></Alert.Link>
           <Alert.Link className="contactIcon" target="_blank" href="https://www.linkedin.com/in/sandra-cuevastorres"><i class="fab fa-linkedin"></i></Alert.Link>
           <Alert.Link className="contactIcon" target="_blank" href="https://www.behance.net/zandryuxf92e"><i class="fab fa-behance-square"> </i></Alert.Link>

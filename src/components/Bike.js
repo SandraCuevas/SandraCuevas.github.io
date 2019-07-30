@@ -1,11 +1,13 @@
 import React from 'react';
-import YoBici from '../img/yoBici.gif';
+import YoBici from '../img/BiciMail.gif';
 import '../App.css';
 
 const BikeMe = () => {
     return (
-        <div className="imgBike">
-            <img src={YoBici} alt="gif"/>
+        <div>
+            <div className="imgBike">
+                <img src={YoBici} alt="gif"/>
+            </div>
         </div>
     )
 }
