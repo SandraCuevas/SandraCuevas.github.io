@@ -2,19 +2,21 @@ import React from 'react';
 import Slideshow from './components/Slide';
 import './App.css';
 import BikeMe from './components/Bike';
-//import ContactMe from './components/Contact';
+import Background from './img/fondo01.jpg';
 
 
 function App() {
   return (
     <div className="App">
-      <div className='container'>
-        <Slideshow />
-          <div className='bici'>
-            <BikeMe/>        
-          </div>
+    <img className="bg" alt="bg" src={Background}/>
+      
+        <div className='container'>
+          <Slideshow />
+            <div className='bici'>
+              <BikeMe/>        
+            </div>
+        </div>
       </div>
-    </div>
     
   );
 }

@@ -86,6 +86,10 @@
   width: 100%;
 }
 
+.bg{
+  position: absolute;
+}
+
 
 .each-slide { 
   height: 100vh; 
@@ -93,11 +97,12 @@
 }
 
 .container{
-  width: 100%;
+  width: 100vmax;
     padding-right: 0px;
     padding-left: 0px;
     margin-right: auto;
     margin-left: auto;
+  align-items: center;
 }
 
 .ballons{

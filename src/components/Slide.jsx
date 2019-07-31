@@ -18,7 +18,6 @@ const properties = {
     indicators:true,
     scale: 0.4,
     arrows:true,
-
 }
 
 const Slideshow = () => {
